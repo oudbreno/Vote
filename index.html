@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voto</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>VOTE</h1>
+    <main>
+        <div class="forms">
+            <p id="n">Qual o seu nome ?</p>
+            <input type="text" name="nome" id="name">
+            <br><br>
+            <p id="ida">Qual a sua idade ?</p>
+            <input type="text" name="idade" id="idad" >
+            <br><br>
+            <p id="cp">cpf</p>
+            <input type="text" name="cpf" id="cepefe"> 
+            <br><br>
+            <button type="button" id="bt" onclick="votar()">Verificar</button>
+        </div>
+        <div id="result-container"></div>
+    </main>
+</body>
+</html>
